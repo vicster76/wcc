@@ -27,3 +27,7 @@ p {
 ul {
   font-family:Verdana;
 }
+
+.primary {
+  font-weight:bold;
+}
