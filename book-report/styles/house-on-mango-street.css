@@ -1,5 +1,5 @@
-#background {
-  	background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
+body {
+    background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
 }
 
 #wrapper {
@@ -11,8 +11,14 @@
 
 h1 {
   color:#4a4adb;
+  font-family:Verdana;
 }
 
 h2 {
   color:#4993db;
+  font-family:Verdana;
+}
+
+p {
+  line-height:1.5;
 }
