@@ -31,3 +31,10 @@ ul {
 .primary {
   font-weight:bold;
 }
+
+.quick_facts {
+  font-style: oblique;
+  border:1px;
+  border-style: solid;
+  border-color:#000000;
+}
