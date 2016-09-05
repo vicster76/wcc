@@ -1,3 +1,7 @@
+#background {
+  	background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
+}
+
 #wrapper {
     width:600px;
     margin:auto; /* Centers the div on the page */
