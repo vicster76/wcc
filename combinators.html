@@ -4,31 +4,24 @@
     <title>Combinators</title>
     <meta charset='utf-8'>
     <style>
-    /* Both the h1 and the h2 are child elements of the header,
-    so the following two selectors will work. */
-    header > h1 {
-        background-color:yellow;
-    }
-
-    header > h2 {
-        background-color:orange;
-    }
-
-    /* While the img is a descendant of the section,
-    it is not a direct child...it’s more of a “grandchild.”
-    Therefor, the following selector will do nothing. */
-    section > img {
-        border:1px solid black;
-    }
-</style>
+        li, img {
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
-      <section>
-          <header>
-              <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
-              <h1>Reading List</h1>
-              <h2>Curated by Sabrina</h2>
-          </header>
-      </section>
+  <section>
+    <ul>
+      <li>
+        <img src='https://practice-pixels.s3.amazonaws.com/kitten_150x150.jpg'>
+      </li>
+      <li>
+        <img src='https://practice-pixels.s3.amazonaws.com/kitten_150x150.jpg'>
+      </li>
+      <li>
+        <img src='https://practice-pixels.s3.amazonaws.com/kitten_150x150.jpg'>
+      </li>
+    </ul>
+  </section>
 </body>
 </html>
