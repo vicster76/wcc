@@ -5,11 +5,12 @@ body {
 .wrapper {
     width:800px;
     margin:auto; /* Centers the div on the page */
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #FFFFFF;
     padding:5px;
+    font-size:1rem; /* 10px */
 }
-header{
+header {
   font-family: 'helvetica';
   text-align: center;
 }
@@ -18,6 +19,20 @@ header a:link, header a:visited, header a:active, header  a:hover {
     color:#000000;
 }
 
+ a:link {
+  font-family: 'helvetica';
+  color: #D42A1D; /* Rust Orange */
+}
+ a:visited {
+  color: #D42A1D; /* Rust Orange */
+ }
+ a:hover {
+  color:#0B2842; /* Deep Blue */
+    }
+ a:active {
+   color: #D42A1D; /* Rust Orange */
+ }
+
 h1 {
   font-family: 'helvetica';
   font-size:2.0rem;
@@ -25,20 +40,34 @@ h1 {
   margin:1px;
 }
 
-h3 {
+h2 {
   font-family: 'helvetica';
   font-size:1.2rem;
   margin:1px;
 }
 
+h3 {
+  font-family: 'helvetica';
+  font-size:1rem;
+  margin:1px;
+}
+
 h4 {
   font-family: 'helvetica';
+  font-size:1rem;
   font-style: italic;
   margin:1px;
 }
 
 p {
   font-family: 'Georgia';
+  font-size:1rem;
   line-height: 1.5;
-  margin:1px;
 }
+
+.book {
+  background-color: #EEEEEE;
+  margin:auto;
+	margin-bottom:20px;
+	padding:10px;
+  }
