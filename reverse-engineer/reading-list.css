@@ -1,3 +1,44 @@
 body {
-    background-color:yellow;
+  background-image: url("http://practice-pixels.s3.amazonaws.com/texture-blue.jpg");
+  font-size: 62.5%; /* Will make the default browser size 10px */
+}
+.wrapper {
+    width:800px;
+    margin:auto; /* Centers the div on the page */
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding:5px;
+}
+header{
+  font-family: 'helvetica';
+  text-align: center;
+}
+
+header a:link, header a:visited, header a:active, header  a:hover {
+    color:#000000;
+}
+
+h1 {
+  font-family: 'helvetica';
+  font-size:2.0rem;
+  color: #D42A1D; /* Rust Orange */
+  margin:1px;
+}
+
+h3 {
+  font-family: 'helvetica';
+  font-size:1.2rem;
+  margin:1px;
+}
+
+h4 {
+  font-family: 'helvetica';
+  font-style: italic;
+  margin:1px;
+}
+
+p {
+  font-family: 'Georgia';
+  line-height: 1.5;
+  margin:1px;
 }
